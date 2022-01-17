@@ -1,0 +1,293 @@
+body {
+  background: smokewhite;
+
+}
+.navbar {
+  position: fixed;
+  float: left;
+  margin-left: 0px;
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  top: 0px;
+}
+#navbar_buttons_men {
+  margin-left: 180px;
+}
+#navbar_buttons_homes {
+  width: 150px;
+}
+#navbar_buttons_studio {
+  margin-top: -2px;
+  margin-left: 15px;
+}
+
+.navbar_buttons {
+  font-size: 13px;
+  font-weight: bold;
+  opacity: 80%;
+  height: 80px;
+  width: 75px;
+  float: left;
+  border: none;
+  letter-spacing: 0.02rem;
+  background-color: transparent;
+}
+#navbar_buttons_search {
+  background: url(../src/search.png);
+  background-color: rgb(240, 240, 240);
+  width: 35px;
+  height: 35px;
+  margin-top: 25px;
+  margin-left: 60px;
+  border: none;
+}
+#navbar_buttons_searchbox {
+  width: 420px;
+  height: 35px;
+  border: none;
+  margin-top: 25px;
+  background-color: rgb(240, 240, 240);
+  font-size: 12.5px;
+
+  font-weight: normal;
+}
+#navbar_buttons_men:hover,
+#navbar_buttons_studio:hover {
+  border-bottom: 5px solid red;
+}
+#navbar_buttons_women:hover {
+  border-bottom: 5px solid hotpink;
+}
+#navbar_buttons_kids:hover {
+  border-bottom: 5px solid orange;
+}
+#navbar_buttons_beauty:hover {
+  border-bottom: 5px solid cyan;
+}
+#navbar_buttons_homes:hover {
+  border-bottom: 5px solid rgb(126, 126, 10);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    margin-left: 0px;
+  }
+  #navbar_buttons_searchbox,
+  #navbar_buttons_search {
+    visibility: hidden;
+  }
+
+  .navbar_buttons {
+      cursor:hand;
+    word-spacing: none;
+    margin-left: 0px;
+    font-size: 12px;
+    padding-top: 5px;
+    height: 50px;
+    width: 90px;
+    margin-top: 0px;
+  }
+  #navbar_buttons_men:hover {
+    border: none !important;
+    border-bottom: 5px solid red;
+  }
+
+  #navbar_buttons_men {
+    margin-left: 100px;
+  }
+  .navbar_buttons_images {
+    margin-left: 20px;
+  }
+}
+
+.navbar_buttons_images {
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.sup {
+  color: rgb(250, 3, 127);
+  font-size: 8px;
+}
+
+.container {
+  position: absolute;
+  border: 2px solid white;
+  height: 450px;
+  width: 1300px;
+  left: 50px;
+  top: 100px;
+  background: rgb(241, 216, 220);
+}
+.containerr {
+  position: absolute;
+  border: 2px solid white;
+  height: 500px;
+  width: 1300px;
+  left: 50px;
+  top: 600px;
+}
+.container_button_left,
+.container_button_right {
+  position: absolute;
+  background: orangered;
+  width: 220px;
+  height: 90px;
+  left: 40px;
+  top: 50px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+#container_button_right_first {
+  top: 310px;
+}
+.container_button_right {
+  left: 1040px;
+}
+#container_button_left_second,
+#container_button_right_second {
+  top: 180px;
+}
+#container_button_left_third,
+#container_button_right_third {
+  top: 310px;
+}
+.p1 {
+  margin-top: -10px;
+  word-spacing: -5px;
+  font-size: 50px;
+}
+.container_image {
+  position: absolute;
+  left: 290px;
+  width: 55%;
+}
+.image_button {
+  position: absolute;
+  height: 200px;
+  width: 500px;
+}
+.container_button_left_image1,
+.container_button_right_image1,
+.container_button_left_image2,
+.container_button_right_image2,
+.container_button_left_image3,
+.container_button_right_image3{
+  position: absolute;
+  border: solid;
+  background-size: 100%;
+ 
+  align-items: center;
+  height: 145px;
+  width: 370px;
+  border: none;
+  top: 95px;
+  left: 330px;
+  background-image: url("https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2022/1/13/960e741f-e02d-4fa1-9d36-1eacdef9cfa31642057754000-Top-Banner_03.jpg");
+}
+.container_button_right_image1 {
+  background-image: url("https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2022/1/13/bfa03f82-5da0-43ad-bd0b-e2949d55e8ba1642057754007-Top-Banner_04.jpg");
+  left: 699px;
+  border: none;
+}
+.container_button_left_image2{
+    background-image:url("https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2022/1/13/ee63abe5-64aa-478a-9538-c0dec31d86371642057754027-Top-Banner_07.jpg");
+    top: 240px;
+}
+.container_button_right_image2{
+    background-image:url("https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2022/1/13/9e2553ef-ffd1-434f-aa95-0abe3f92ec911642057754034-Top-Banner_08.jpg");
+    left:699px;
+    top:240px;
+}
+.container_button_left_image3{
+    background-image:url("https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2022/1/13/34258421-484a-425a-a7f6-78886be4ec761642057754056-Top-Banner_11.jpg");
+    top:385px;
+}
+.container_button_right_image3{
+    background-image:url("https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2022/1/13/82dd8841-f49f-4d15-8e48-2cfe1bb2c2561642057754065-Top-Banner_12.jpg");
+    top:385px;
+    left:700px;
+}
+ .citi_bank,.citi_bank2 , .citi_button , .citi_button2  {
+    position:absolute;
+  top:520px;
+  width:98%;
+  float:left;
+  left:20px;
+  height:110px;
+  background-image: url("https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/1/14/0aee0d7a-a9ba-4881-aafc-21f6b5c3e4691642158269057-Desktop_Bank-Offer.jpg"
+   );
+   background-size: 100%;
+
+} 
+.citi_bank2{
+    position:absolute;
+    width:99%; 
+    top:628px;
+    height:215px;
+    left:15px;
+    background-image:url("https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/1/16/960eea33-d3f2-4874-b47f-bb98e2063eb21642335157329-DK-buy2-73.jpg");
+}
+.citi_button ,.citi_button2 {
+    background-image:url("https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/1/14/4e32982e-2e5e-47d6-8187-147059fce2171642158268993-Unbelievable-Deals.jpg");
+    top:845px;
+    height:130px;
+    border:none;
+}
+.product_container , .winter_container  , .topbrands_container , .mostloved_container{
+    position:relative;
+    display:grid;
+    top:480px;
+    left:8px;
+    
+   
+}
+.x, .wi,.mlb ,.tb{
+    height:330px;
+    margin-top:10px;
+}
+@media screen  and (min-width: 768px){
+    .product_container , .winter_container , .topbrands_container, .mostloved_container{
+        grid-template-columns:repeat(5,1fr);
+    }
+}
+.citi_button2{
+    position:absolute;
+    background-image:url("https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/1/14/9dee2107-6680-471e-97d6-aff7d1937a621642158269007-Winter-Wear-Collection.jpg");
+    top:1655px;
+} 
+.winter_container{
+    top:1100px;
+}
+.topbrands , .mostlovedbrands {
+    position:absolute;
+    border:none;
+   top:2130px;
+   height:130px;
+   width:98%;
+    background-image:url("https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/1/14/3dbc056b-58d3-47c8-8020-1f3866fc86001642158269001-Top-Brands-On-Offer.jpg");
+   background-size: 100%;  
+  left:10px;
+}
+.mostlovedbrands{
+  top:2600px;
+  
+   background-image:url("https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/1/14/a5f53400-bb99-4ebd-b621-ffb50abdf6d61642158269013-Most-Loved-Brands.jpg")
+}
+.topbrands_container{
+  top:1220px; 
+}
+.mostloved_container{
+  top:1330px;
+}
+.mlb{
+  height:400px;
+ margin-left:10px;
+}
